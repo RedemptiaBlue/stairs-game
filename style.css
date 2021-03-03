@@ -1,0 +1,55 @@
+:root * {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+#points-box,
+#high-score-box {
+  height: 90px;
+  width: 120px;
+  border: 1px solid black;
+}
+#points,
+#high-score {
+  font-size: 40px;
+  font-family: arial;
+  font-weight: bold;
+}
+#game {
+  background: skyblue;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  align-items: center;
+  border: 1px solid black;
+}
+.rows {
+  display: flex;
+}
+.cells {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 80px;
+  height: 80px;
+}
+.stair {
+  width: 80px;
+}
+#sprite {
+  background: blue;
+  width: 50px;
+  height: 80px;
+  margin: 0 auto;
+  color: white;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ground {
+  width: 80px;
+  height: 80px;
+  background: limegreen;
+}
